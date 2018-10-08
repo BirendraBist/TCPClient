@@ -19,6 +19,7 @@ namespace TCPClient
         {
             try
             {
+
                 using (_clientSocket = new TcpClient("283.6.0.2", 7070))
                 {
                     using (_nStream = _clientSocket.GetStream())
